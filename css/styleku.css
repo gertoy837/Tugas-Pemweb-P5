@@ -21,7 +21,7 @@ body {
     }
 }
 
-ul {
+.ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
@@ -45,7 +45,7 @@ ul {
 
 .isi {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+    text-align: justify;
     .jawa {
         font-size: 3rem;
         color: blue;
@@ -55,6 +55,15 @@ ul {
 #profil h3 {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#profil ul li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#beternak {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
 }
 
 #beternak h3 {
